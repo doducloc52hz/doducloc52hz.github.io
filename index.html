@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+       
+        .animated-border {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            margin: 50px;
+        }
+        .animated-border::before,
+        .animated-border::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 1.5px solid transparent;
+            box-sizing: border-box;
+            transition: all 0.5s ease-in-out;
+        }
+        .animated-border:hover::before {
+            border-top-color: red;
+            border-right-color: orange;
+            border-bottom-color: yellow;
+            border-left-color: green;
+            transform: rotate(360deg);
+        }
+        .animated-border:hover::after {
+            border-top-color: green;
+            border-right-color: blue;
+            border-bottom-color: indigo;
+            border-left-color: violet;
+            transform: rotate(-360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul class="ul_navbar">
+                <li class="li_navbar"><a href="#"><button class="btn_navbar"><b>Home</b></button></a></li>
+                <li class="li_navbar"><a href="#"><button class="btn_navbar"><b>Tips</b></button></a></li>
+                <li class="li_navbar"><a href="#"><button class="btn_navbar"><b>Fanpage</b></button></a></li>
+                <li class="li_navbar"><a href="#"><button class="btn_navbar"><b>Contact</b></button></a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="content_row1">
+                <a href="#" class="link_icon icon_1 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part 1.png" alt="part_1"></div>
+                    </div>
+                    <div class="text_icon">Part 1</div>
+                </a>
+                <a href="#" class="link_icon icon_2 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part 2.png" alt="part_2"></div>
+                    </div>
+                    <div class="text_icon">Part 2</div>
+                </a>
+                <a href="#" class="link_icon icon_3 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part_3.png" alt="part_3"></div>
+                    </div>
+                    <div class="text_icon">Part 3</div>
+                </a>
+                <a href="#" class="link_icon icon_4 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part_4.png" alt="part_4"></div>
+                    </div>
+                    <div class="text_icon">Part 4</div>
+                </a>
+                <a href="#" class="link_icon icon_5 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/listening.png" alt="listening"></div>
+                    </div>
+                    <div class="text_icon">Listening</div>
+                </a>
+            </div>
+            <div class="content_row2">
+                <a href="#" class="link_icon icon_6 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part_5.png" alt="Part_5"></div>
+                    </div>
+                    <div class="text_icon">Part 5</div>
+                </a>
+                <a href="#" class="link_icon icon_7 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part_6.png" alt="Part_6"></div>
+                    </div>
+                    <div class="text_icon">Part 6</div>
+                </a>
+                <a href="#" class="link_icon icon_8 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Part_7.png" alt="Part_7"></div>
+                    </div>
+                    <div class="text_icon">Part 7</div>
+                </a>
+                <a href="#" class="link_icon icon_9 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Reading.png" alt="Reading"></div>
+                    </div>
+                    <div class="text_icon">Reading</div>
+                </a>
+                <a href="#" class="link_icon icon_10 animated-border">
+                    <div class="icon_content">
+                        <div class="img_content"><img src="/picture/Test.png" alt="Exam"></div>
+                    </div>
+                    <div class="text_icon">Test 200</div>
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <footer class="footer">
+            <i class="fa-regular fa-envelope"></i> ducloc.do.bk@gmail.com
+        </footer>
+    </div>
+</body>
+</html>
